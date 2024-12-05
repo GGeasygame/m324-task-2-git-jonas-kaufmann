@@ -9,6 +9,8 @@ jobs:
   update-index-html:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
       - name: Run bash to update index.html
