@@ -1,0 +1,10 @@
+on: 
+  push:
+    branches:
+    - main
+
+jobs:
+  update-index-html:
+    runs-on: ubuntu-latest
+    steps:
+      - run: bash update-index-html.sh
