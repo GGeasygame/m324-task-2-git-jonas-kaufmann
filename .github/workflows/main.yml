@@ -10,4 +10,4 @@ jobs:
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install -y pandoc
       - name: Run bash to update index.html
-      - run: bash ./update-index-html.sh
+        run: bash ./update-index-html.sh
