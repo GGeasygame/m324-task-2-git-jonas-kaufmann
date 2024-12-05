@@ -3,7 +3,7 @@ name: Update index.html
 on: 
   push:
     branches:
-    - main
+    - master
 
 jobs:
   update-index-html:
