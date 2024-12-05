@@ -1,3 +1,5 @@
+name: Update index.html
+
 on: 
   push:
     branches:
